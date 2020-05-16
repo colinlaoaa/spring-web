@@ -1,0 +1,49 @@
+﻿.ui-slider{position:relative;width:423px;height:638px}
+.ui-slider-stage{position:relative;width:423px;height:638px;overflow:hidden;white-space:nowrap;word-wrap:normal}
+.ui-slider-item{width:423px;height:638px}
+.ui-slider-next,.ui-slider-prev{position:absolute;width:40px;height:40px;top:50%;margin-top:40px;font:bolder 24px/40px '';text-align:center;color:#fff;background:#ccc;background:rgba(204,204,204,.7);left:2px;z-index:11;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border-radius:10px;cursor:pointer}
+.ui-slider-next{left:auto;right:2px}
+.ui-slider-next:hover,.ui-slider-prev:hover{background:#ddd}
+.ui-slider-next-disable,.ui-slider-prev-disable{display:none}
+.ui-slider-pager{position:absolute;bottom:0;left:50%;z-index:3;cursor:pointer}
+.ui-slider-pager i{width:10px;height:10px;font-size:0;display:inline-block;margin-right:10px;border-radius:10px;background:#ccc;-webkit-transition:width .3s linear;-moz-transition:width .3s linear;-ms-transition:width .3s linear;-o-transition:width .3s linear;transition:width .3s linear}
+.ui-slider-pager .ui-slider-pager-selected{width:16px}
+.ui-slider-stage-vertical{white-space:normal}
+.ui-slider-stage-vertical .ui-slider-item{float:left}
+.ui-slider-stage-opactiy .ui-slider-item{position:absolute}
+.ui-slider-cover{z-index:1}
+.ui-slider-top{z-index:2}
+.dumi-ui-slider{border-top:1px solid #efefef;border-bottom:1px solid #efefef;width:100%;height:320px;left:0}
+.dumi-ui-slider-stage{position:relative;overflow:hidden;white-space:nowrap;width:100%;height:320px}
+.dumi-ui-slider-stage a{background-color:#ddd4f0}
+.dumi-ui-slider-item{display:inline-block;*display:inline;*zoom:1;width:100%;height:320px;background-repeat:no-repeat;background-position:center center;background-color:#000;text-align:center}
+.dumi-ui-slider-item a{display:inline-block;*display:inline;*zoom:1;vertical-align:top;text-align:center}
+.dumi-ui-slider-item a img{width:100%}
+.dumi-ui-slider .ui-slider-pager{display:block;bottom:16px;text-align:center}
+.dumi-ui-slider .ui-slider-pager i{width:6px;height:6px;border-radius:50%;opacity:.2;background-color:#000}
+.dumi-ui-slider .ui-slider-pager i.ui-slider-pager-selected{background-color:#fff;opacity:.8}
+.main{width:960px}
+.dumi-logo{display:block;margin-top:20px;margin-bottom:20px;width:203px;height:46px;background-image:url(../images/logo-8633c974.png)}
+.dumi-ui-slider{position:relative;top:0;left:0;right:0;margin:auto;width:100%;height:320px}
+.content-nav{margin-top:8px;width:960px;font-size:0;margin-left:auto;margin-right:auto;overflow:hidden}
+.content-nav .tab-item{float:left;width:25%;height:40px;text-align:center;position:relative;color:#818992}
+.content-nav .tab-item .active-line{display:none;width:140px;position:absolute;height:2px;left:50%;bottom:0;margin-left:-70px;background-color:#5499fc}
+.content-nav .tab-item.active span{color:#444}
+.content-nav .tab-item.active .active-line{display:block}
+.c-line-clamp5{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;-webkit-line-clamp:5}
+.content-nav span{cursor:pointer;width:80px;line-height:40px;display:inline-block;font-size:20px;text-align:center;border-top:2px solid #fff;border-bottom:2px solid #fff}
+.dumi-feed-more{color:#888;padding-top:20px;padding-bottom:20px;font-size:16px;text-align:center;cursor:pointer}
+.dumi-feed{margin-top:20px}
+.dumi-feed-item{width:960px;height:200px;margin:0 auto;padding-top:20px;padding-bottom:20px;overflow:hidden;border-bottom:1px solid #e6e8ec;position:relative}
+.dumi-feed-item-image{width:200px;height:200px;float:left}
+.dumi-feed-item-image img{width:100%}
+.dumi-feed-item-content{width:720px;margin-left:40px;float:left}
+.dumi-feed-item-content .title{margin-top:10px;font-size:20px}
+.dumi-feed-item-content .title a{color:#000}
+.dumi-feed-item-content .title a:hover{color:#5499fc}
+.dumi-feed-item-content .source{position:absolute;bottom:30px;font-size:14px}
+.dumi-feed-item-content .source a{color:#b6b6b6}
+.dumi-feed-item-content .source span{color:#b6b6b6;margin-left:30px}
+.dumi-feed-item-content .abstract{margin-top:13px;color:#888;font-size:16px;line-height:30px}
+.dumi-footer{padding-top:20px;padding-bottom:20px;background-color:#434343;text-align:center;color:#888}
+.index-logo-bot img{width:87px;display:inline-block;vertical-align:middle}

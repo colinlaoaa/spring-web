@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html lang="zh" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title> Life in USA</title>
+    <meta http-equiv="Pragma" contect="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta name="description" content="everyone has a wild dream including me!!!!">
+    <link rel="shortcut icon" href="//xiaodu.baidu.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/main_1.css">
+</head>
+<body id="phone">
+    <!--
+    <div class="mask">
+    </div>
+    -->
+    <div class="top-nav-wrap top-nav-wrap-fix" id="nav">
+        <div class="top-nav">
+            <div class="tn-bg">
+                <div class="tn-header">
+                    <a href="../index.html">
+                        <div class="tn-logo"></div>
+                    </a>
+                    <div class="tn-menu-r">
+                        <div>
+                            <a href="default.html">Homepage</a>
+                        </div>
+                        <div class="tn-menu-solv" id="solv-btn">
+                            <a href="#" class="solv-menu no-jump">Liao's Life</a>
+                            <ul id="solv-sub-menu">
+                                <li><a href="./China.html">Life in China</a></li>
+                                <li><a href="#" class="no-jump">Life in USA</a></li>
+                                <li><a href="./Campus.html">Life in Campus</a></li>
+                            </ul>
+                        </div>                   
+                        <div>
+                            <a href="https://docs.google.com/document/d/1Qa5paE3Ij91DNAJCMr9NGSpYuCvQyxn2fJTMu4Vy7Ag/edit?usp=sharing" target="_blank">About me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="banner-text-wrapper">
+            <div class="banner-title"><span>Life in USA</span>  Chicago Antelope Valley Las Vegas</div>
+            <div class="banner-detail">Adventure begins</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="content-item icon-style-left">
+            <div class="content-icon icon-resource"></div>
+            <div class="content-des">
+                <div class="content-des-title"><span>Xi'an</span></div>
+                <div class="content-des-txt">Begin to leave Xi'an for the U.S.</div>
+            </div>
+        </div>
+
+        <div class="content-item icon-style-right">
+            <div class="content-icon icon-listen"></div>
+            <div class="content-des">
+                <div class="content-des-title"><span>Trip to Antelope Valley</span></div>
+                <div class="content-des-txt">This is our trip to Antelope Valley.</div>
+            </div>
+        </div>
+
+        <div class="content-item icon-style-left">
+            <div class="content-icon icon-morechat"></div>
+            <div class="content-des">
+                <div class="content-des-title"><span>Las Vegas</span></div>
+                <div class="content-des-txt">So beautiful, Las Vegas.</div>
+            </div>
+        </div>
+
+        <div class="content-item icon-style-right">
+            <div class="content-icon icon-calender"></div>
+            <div class="content-des">
+                <div class="content-des-title"><span>Oceanside</span></div>
+                <div class="content-des-txt">This is where I bent over to pick shells by the sea.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="method-wrap">
+        <div class="method">
+            <h2 class="method-title"></h2>
+
+            <div class="method-item-wrap">
+                <div class="method-item left">
+                    <div class="method-icon icon-method-presskey"></div>
+                    <div class="method-item-title"></div>
+                    <div class="method-item-txt"></div>
+                </div>
+
+                <div class="method-item right">
+                    <div class="method-icon icon-method-voice"></div>
+                    <div class="method-item-title"></div>
+                    <div class="method-item-txt"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="method">
+            <h2 class="method-title">UIC</h2>
+
+            <div class="method-item-wrap three">
+                <div class="method-item left">
+                    <div class="method-icon icon-method-home"></div>
+                    <div class="method-item-title">UIC</div>
+                    <div class="method-item-txt"></div>
+                </div>
+                <div class="method-item left">
+                    <div class="method-icon icon-method-function"></div>
+                    <div class="method-item-title">University of Illinois</div>
+                    <div class="method-item-txt">I finished my master degree in UIC.</div>
+                </div>
+                <div class="method-item left">
+                    <div class="method-icon icon-method-app"></div>
+                    <div class="method-item-title">UIC</div>
+                    <div class="method-item-txt"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="method">
+            <h2 class="method-title">contact detail</h2>
+
+            <div class="method-item-wrap">
+                <div class="method-item">
+                    <div class="method-icon icon-method-email"></div>
+                    <p>recruiters or HRs please contect ^v^</p>
+                    <p>Email：lhu24@uic.edu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-in">
+            <ul class="fi-item-box">
+                <li>
+                    contact me：<a href="https://www.linkedin.com/in/liao-hu-b62637192?trk=people-guest_people_search-card" target="_blank">312-4598891</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            /****      菜单悬浮控制       ****/
+            var bannerHeight = $('.banner').height();
+            $(window).on('scroll', function () {
+                var scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
+                if (scrollTop > bannerHeight) {
+                    $('#nav').css({
+                        position: 'fixed',
+                        backgroundColor: '#181b21'
+                    });
+                }
+                else {
+                    $('#nav').css({
+                        position: 'absolute',
+                        backgroundColor: ''
+                    });
+                }
+            });
+            /****      菜单悬浮控制       ****/
+
+
+
+
+            var subMenu = $('#solv-sub-menu');
+
+            // 鼠标从下方朝解决方案四个字移动时会先触发菜单的展开，这时鼠标处于菜单上，但是继续往解决方案四个字移动会离开菜单，这时会触发菜单收起，导致菜单极难使用，所以需要在解决方案四个字上触发展开时做个flag，300ms内不让收起
+            var mouseInFlag = false;
+            $('#solv-btn').on('click', function () {
+                subMenu.slideDown(300).show();
+            });
+            $('#solv-btn').hover(function () {
+                mouseInFlag = true;
+                setTimeout(function () {
+                    mouseInFlag = false;
+                }, 300);
+                subMenu.slideDown(300);;
+            }, function () {
+                if (!mouseInFlag) {
+                    subMenu.slideUp(200);
+                }
+            });
+
+            subMenu.hover(function () {
+                $(this).show();
+            }, function () {
+                if (!mouseInFlag) {
+                    subMenu.slideUp(200);
+                }
+            });
+
+            $('.no-jump').on('click', function () {
+                return false;
+            })
+        });
+    </script>
+</body>
+</html>
